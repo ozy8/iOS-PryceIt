@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F181EBDD1D37823E00F23FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBDC1D37823E00F23FA9 /* AppDelegate.swift */; };
-		F181EBDF1D37823E00F23FA9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBDE1D37823E00F23FA9 /* FirstViewController.swift */; };
-		F181EBE11D37823E00F23FA9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBE01D37823E00F23FA9 /* SecondViewController.swift */; };
+		F181EBDF1D37823E00F23FA9 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBDE1D37823E00F23FA9 /* BrowseViewController.swift */; };
+		F181EBE11D37823E00F23FA9 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBE01D37823E00F23FA9 /* FavouritesViewController.swift */; };
 		F181EBE41D37823E00F23FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F181EBE21D37823E00F23FA9 /* Main.storyboard */; };
 		F181EBE61D37823E00F23FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F181EBE51D37823E00F23FA9 /* Assets.xcassets */; };
 		F181EBE91D37823E00F23FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F181EBE71D37823E00F23FA9 /* LaunchScreen.storyboard */; };
+		F181EBF11D38AB1100F23FA9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBF01D38AB1100F23FA9 /* CameraViewController.swift */; };
+		F181EBF31D38AB4900F23FA9 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBF21D38AB4900F23FA9 /* NotificationViewController.swift */; };
+		F181EBF51D38AB6900F23FA9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181EBF41D38AB6900F23FA9 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F181EBD91D37823E00F23FA9 /* PryceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F181EBDC1D37823E00F23FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F181EBDE1D37823E00F23FA9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F181EBE01D37823E00F23FA9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F181EBDE1D37823E00F23FA9 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		F181EBE01D37823E00F23FA9 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		F181EBE31D37823E00F23FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F181EBE51D37823E00F23FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F181EBE81D37823E00F23FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F181EBEA1D37823E00F23FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F181EBF01D38AB1100F23FA9 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F181EBF21D38AB4900F23FA9 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		F181EBF41D38AB6900F23FA9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				F181EBDC1D37823E00F23FA9 /* AppDelegate.swift */,
-				F181EBDE1D37823E00F23FA9 /* FirstViewController.swift */,
-				F181EBE01D37823E00F23FA9 /* SecondViewController.swift */,
+				F181EBDE1D37823E00F23FA9 /* BrowseViewController.swift */,
+				F181EBF01D38AB1100F23FA9 /* CameraViewController.swift */,
+				F181EBE01D37823E00F23FA9 /* FavouritesViewController.swift */,
+				F181EBF21D38AB4900F23FA9 /* NotificationViewController.swift */,
+				F181EBF41D38AB6900F23FA9 /* ProfileViewController.swift */,
 				F181EBE21D37823E00F23FA9 /* Main.storyboard */,
 				F181EBE51D37823E00F23FA9 /* Assets.xcassets */,
 				F181EBE71D37823E00F23FA9 /* LaunchScreen.storyboard */,
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					F181EBD81D37823E00F23FA9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5T3EKU44GA;
 					};
 				};
 			};
@@ -138,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F181EBE11D37823E00F23FA9 /* SecondViewController.swift in Sources */,
+				F181EBF51D38AB6900F23FA9 /* ProfileViewController.swift in Sources */,
+				F181EBE11D37823E00F23FA9 /* FavouritesViewController.swift in Sources */,
+				F181EBF11D38AB1100F23FA9 /* CameraViewController.swift in Sources */,
 				F181EBDD1D37823E00F23FA9 /* AppDelegate.swift in Sources */,
-				F181EBDF1D37823E00F23FA9 /* FirstViewController.swift in Sources */,
+				F181EBDF1D37823E00F23FA9 /* BrowseViewController.swift in Sources */,
+				F181EBF31D38AB4900F23FA9 /* NotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PryceIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.owzhiyin.PryceIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -264,10 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PryceIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.owzhiyin.PryceIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -290,6 +309,7 @@
 				F181EBEF1D37823E00F23FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
